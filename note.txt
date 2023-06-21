@@ -1,1 +1,1 @@
-This is my deployed version link  : https://esm-project-weather-app.vercel.app/
+This is my deployed version link  : https://weatherapp-nu-jade.vercel.app/
