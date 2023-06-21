@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+  <body>
+    <section class="vh-100" style="background-color: #4B515D;">
+  <div class="container py-5 h-100">
+
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-md-8 col-lg-6 col-xl-4">
+
+        <div class="mb-3">
+            <div class="input-group rounded mb-3">
+                <input type="search" id="inputCity" class="form-control rounded" placeholder="City" aria-label="Search"
+                    aria-describedby="search-addon"/>
+
+                <a href="#!" id="searchBtn" type="button" style="margin-left: 10px;">
+                    <span class="input-group-text border-0 fw-bold btn btn-primary" id="search-addon">
+                        Check!
+                    </span>
+                </a>
+            </div>
+        </div>
+
+        <div class="card" style="color: #4B515D; border-radius: 35px;">
+          <div id="cardBody" class="card-body p-4">
+
+            <div class="d-flex">
+              <h6 class="flex-grow-1">----</h6>
+            </div>
+
+            <div class="d-flex flex-column text-center mt-5 mb-4">
+              <h6 class="display-4 mb-0 font-weight-bold" style="color: #1C2331;"> 0°C </h6>
+              <span class="small" style="color: #868B94">---</span>
+            </div>
+
+            <div class="d-flex align-items-center">
+              <div class="flex-grow-1" style="font-size: 1rem;">
+                <div>Wind :<i class="fas fa-wind fa-fw" style="color: #868B94;"></i> <span class="ms-1"> -- km/h
+                  </span></div>
+                <div>Humidity :<i class="fas fa-tint fa-fw" style="color: #868B94;"></i> <span class="ms-1"> --% </span>
+                </div>
+                
+              </div>
+              <div>
+                <img src=""
+                  width="100px">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
